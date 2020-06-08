@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{w2l6:function(e,n,a){"use strict";a.r(n);var t=a("q1tI"),r=a.n(t);n.default=function(){return r.a.createElement("h1",null,"Not found"," ",r.a.createElement("span",{role:"img","aria-label":"crying face"},"😢"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-0345193210016f234bbd.js.map
