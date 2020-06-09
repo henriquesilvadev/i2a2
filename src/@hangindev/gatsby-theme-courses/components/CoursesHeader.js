@@ -28,17 +28,15 @@ function CoursesHeader() {
     <header>
       <Wrapper>
         <img src="../img/header.png" alt="header" />
-        <a
-          href="https://www.linkedin.com/in/henriquesilvadev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img src="../img/linkedin.png" alt="linkedin" width="300px" />
-        </a>
       </Wrapper>
+      <a
+        href="https://www.linkedin.com/in/henriquesilvadev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../img/linkedin.png" alt="linkedin" width="300px" />
+      </a>
 
-      {/* Override me */}
-      <h2>Sharing Features</h2>
       <List>
         <li>
           <span role="img" aria-label="memo">
