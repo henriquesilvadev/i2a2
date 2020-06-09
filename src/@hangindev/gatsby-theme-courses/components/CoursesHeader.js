@@ -15,20 +15,9 @@ const List = styled.ul`
   }
 `;
 
-const Wrapper = styled.nav`
-  max-width: ${({ theme }) => theme.maxWidth};
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  color: white;
-`;
-
 function CoursesHeader() {
   return (
     <header>
-      <Wrapper>
-        <img src="../img/header.png" alt="header" />
-      </Wrapper>
       <a
         href="https://www.linkedin.com/in/henriquesilvadev"
         target="_blank"
