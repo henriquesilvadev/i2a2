@@ -7,7 +7,7 @@ import CoursesHeader from './CoursesHeader';
 import CoursesFooter from './CoursesFooter';
 
 const Wrapper = styled.div`
-  margin-left: -15px;
+  padding: 0 1rem;
 `;
 
 function Courses() {
