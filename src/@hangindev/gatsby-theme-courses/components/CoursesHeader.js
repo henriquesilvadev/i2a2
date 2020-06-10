@@ -15,17 +15,27 @@ const List = styled.ul`
   }
 `;
 
+const Wrapper = styled.nav`
+  max-width: ${({ theme }) => theme.maxWidth};
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: white;
+`;
+
 function CoursesHeader() {
   return (
     <header>
-      <a
-        href="https://www.linkedin.com/in/henriquesilvadev"
+    <a
+        href="https://about.me/henriquesilva"
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="../img/linkedin.png" alt="linkedin" width="300px" />
+        https://about.me/henriquesilva
+        <Wrapper>
+          <img src="../img/header.png" alt="header" />
+        </Wrapper>
       </a>
-
       <List>
         <li>
           <span role="img" aria-label="memo">
@@ -119,6 +129,13 @@ function CoursesHeader() {
           🇺🇸
         </li>
       </List>
+      <a
+        href="https://www.linkedin.com/in/henriquesilvadev"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src="../img/linkedin.png" alt="linkedin" width="300px" />
+      </a>
     </header>
   );
 }
