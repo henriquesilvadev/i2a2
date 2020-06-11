@@ -128,6 +128,19 @@ function CoursesHeader() {
           </a>
           🇺🇸
         </li>
+        <li>
+          <span role="img" aria-label="heart">
+            <img src="img/user.png" alt="user" />
+          </span>{' '}
+          <a
+            href="https://spectrum.chat/journey-i2a2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Personal Community
+          </a>
+          🇧🇷 🇺🇸
+        </li>
       </List>
       <a
         href="https://www.linkedin.com/in/henriquesilvadev"
