@@ -16,7 +16,7 @@ function Courses() {
       <SEO title="Courses" />
       <Wrapper>
         <CoursesHeader />
-        <CoursesList />
+        {/* <CoursesList /> */}
         <CoursesFooter />
       </Wrapper>
     </Layout>
